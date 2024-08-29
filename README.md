@@ -7,7 +7,7 @@
 
 #### <a name="chapter1part1"></a>Chapter 1 - Part 1: Example to Setup a Local Postgres Database using Docker
 
-For this example, all files to setup the Postgres in docker is located in the folder [docker-example][https://github.com/vitorstabile/postgresql-basics/tree/main/docker-example]. Just download and make the command ```docker-compose up -d```. This tutorial bellow, is just to explain how to configure a Postgres image and run
+For this example, all files to setup the Postgres in docker is located in the folder [docker-example](https://github.com/vitorstabile/postgresql-basics/tree/main/docker-example). Just download and make the command ```docker-compose up -d```. This tutorial bellow, is just to explain how to configure a Postgres image and run
 
 First, to start a Postgres database in a docker container, we have to create a Dockerfile.
 
