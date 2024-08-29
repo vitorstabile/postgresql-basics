@@ -159,7 +159,7 @@ OBS: This Docker image of Postgres will create another random volume, different 
 
 This happens when the image you are using defines a VOLUME in the Dockerfile to a container path that you do not define as a volume in your run command. Docker creates the guid for the volume name when you have a volume without a source, aka an anonymous volume. You can use docker image inspect on the image to see the volumes defined in that image. If you inspect the container (docker container inspect), you'll see that your volume is being used, it's just that there's a second anonymous volume to a different path also being used.
 
-#### <a name="chapter1part1"></a>Chapter 1 - Part 2: Access Postgres Database from Docker and Make your first Query
+#### <a name="chapter1part2"></a>Chapter 1 - Part 2: Access Postgres Database from Docker and Make your first Query
 
 After made the ```docker-compose up -d```, the container was created. Make a ```docker ps``` to list the container and get the container id
 
