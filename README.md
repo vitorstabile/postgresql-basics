@@ -1,11 +1,11 @@
 # Content
 
 1. [Chapter 1: Setup Postgres](#chapter1)
-  - [Chapter 1 - Part 1: Setup a Local Postgres Database using Docker](#chapter1part1)
+  - [Chapter 1 - Part 1: Example to Setup a Local Postgres Database using Docker](#chapter1part1)
 
 ## <a name="chapter1"></a>Chapter 1: Setup Postgres
 
-#### <a name="chapter1part1"></a>Chapter 1 - Part 1: Setup a Local Postgres Database using Docker
+#### <a name="chapter1part1"></a>Chapter 1 - Part 1: Example to Setup a Local Postgres Database using Docker
 
 First, to start a Postgres database in a docker container, we have to create a Dockerfile.
 
